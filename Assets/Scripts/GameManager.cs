@@ -74,12 +74,14 @@ public class GameManager : MonoBehaviour
     }
     void Lose()
     {
-        Debug.Log("Quitt");
+        SceneManager.LoadScene(loseSceneIndex);
     }
 
     public void Win()
     {
-        Debug.Log("Quitt");
+        if (PlayerPrefs.GetInt("HighScore") < PlayerPrefs.GetInt("Score"))
+            PlayerPrefs.SetInt("HighScore", PlayerPrefs.GetInt("Score"));
+        SceneManager.LoadScene(winSceneIndex);
     }
 
     public int GetScore()

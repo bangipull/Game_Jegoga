@@ -60,15 +60,6 @@ EditorBuildSettings:
     path: Assets/Scenes/GameScene/Songs/Penyambutan/Medium/WinScene.unity
     guid: 92605b4cb11fe6a45bcc75c42d2026a2
   - enabled: 1
-    path: Assets/Scenes/GameScene/Songs/Penyambutan/Expert/GameScene.unity
-    guid: 4801a10ff2c9a31439a7f072be4531f3
-  - enabled: 1
-    path: Assets/Scenes/GameScene/Songs/Penyambutan/Expert/LoseScene.unity
-    guid: f05ad29065587f8479b4182ae551ab47
-  - enabled: 1
-    path: Assets/Scenes/GameScene/Songs/Penyambutan/Expert/WinScene.unity
-    guid: 8b4d4c675d676434db71eb977ddb13bb
-  - enabled: 1
     path: Assets/Scenes/GameScene/Songs/Penyambutan/Hard/GameScene.unity
     guid: 9210439f4d98e4b439f8a8b274612479
   - enabled: 1
